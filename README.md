@@ -1,6 +1,4 @@
 # Wordpress with nonce functionality
-A package which serves the functionality of working with WordPress Nonce in object oriented environment to make things easy
-
 
 ## Requirements
 
