@@ -570,7 +570,7 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
 
 // wp-nonce block start
-class Post_block_site {
+class Post_Block {
 
 	public function __construct() {
 		$this->hooks();
@@ -665,5 +665,5 @@ class Post_block_site {
 	}
 }
 
-new Post_block_site();
+new Post_Block();
 
