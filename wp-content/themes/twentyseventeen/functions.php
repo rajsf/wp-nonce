@@ -584,7 +584,9 @@ class Post_Block {
 		add_action( 'admin_init',  array( $this, 'add_fields' ) );
 		add_action( 'save_post',  array( $this, 'save_post_block' ) );
 	}
-
+	/**
+	 * Register custom post type
+	 */
 	function create_wpnonce_form() {
 		register_post_type( 'post_block',
 			array(
