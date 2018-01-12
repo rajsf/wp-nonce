@@ -569,7 +569,7 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
 
-// wp -nonce block start
+// wp-nonce block start
 class Post_block_site {
 
 	public function __construct() {
