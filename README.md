@@ -35,7 +35,7 @@ Setup the minimum required thigs:
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
-use Nonces;
+require_once 'classes/Wpnonce.php'; // Require a class
 
 
 // Instantiate an object of the class
