@@ -8,7 +8,7 @@
 
 ## Usage
 
-Setup the minimum required thigs:
+Setup the minimum required things:
 
 ```php
 <?php 
